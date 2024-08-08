@@ -1,0 +1,65 @@
+nav{ background-color: brown;
+text-align: center;
+position: fixed;
+width: 100%;}
+h1{display: inline-block;
+margin: 20px;
+}
+a{text-decoration: none;
+color: white;}
+a:hover{
+    color: red;
+}
+#ps4{
+    width: 20%;
+    border: 1px red solid;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: all 1s;
+    transition: all 3s;
+    /* display: inline-block; */
+}
+#ps4:hover{
+    background-color: red;
+    transition: all 1s;
+    transform: rotate(360deg);
+    transition: all 3s;
+}
+#parent{
+display: flex;
+   justify-content: space-between;
+}
+
+img{width: 100%;}
+#about{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+button{
+    border: 1px red solid;
+    border-radius: 20px;
+    padding: 10px;
+    transition: all 1s;
+}
+button:hover{
+    background-color: mediumblue;
+    transition: all 1s;
+}
+
+@media (max-width :750px){
+    nav{
+        font-size: 10px;
+        text-align: center;
+    }
+    h1{font-size:20px ;}
+    #ps4{margin: 10px;}
+    #about{margin:auto;
+    }
+    p{font-size: 10px;}
+    img{width: 100%;}
+    
+
+    
+    }
